@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="by.pstlabs.push" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="by.pstlabs.push" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>push</name>
 
     <repo>https://github.com/ddvoron/push.git</repo>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
 
     <js-module name="push" src="www/push.js">
         <clobbers target="push"/>
