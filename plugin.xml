@@ -2,6 +2,9 @@
 <plugin id="by.pstlabs.push" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>push</name>
+
+    <repo>https://github.com/ddvoron/push.git</repo>
+
     <js-module name="push" src="www/push.js">
         <clobbers target="push"/>
     </js-module>
@@ -11,7 +14,6 @@
                 <param name="android-package" value="by.pstlabs.push.push"/>
             </feature>
         </config-file>
-        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/push.java" target-dir="src/by/pstlabs/push/push"/>
     </platform>
 </plugin>

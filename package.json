@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "ddvoron"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddvoron/push"
+  },
+  "name": "push",
+  "version": "0.2.0",
+  "description": "Cordova plugin for Google Firebase",
+  "cordova": {
+    "id": "push",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "push",
+    "notifications"
+  ]
+}
